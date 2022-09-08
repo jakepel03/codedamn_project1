@@ -273,9 +273,7 @@ textarea {
 @media screen and (max-width: 948px) {
     header {
         width: 100vw;
-        height: 100vh;
-        border: 2px solid yellow;
-        
+        height: 100vh; 
     }
 
     header h1 {
