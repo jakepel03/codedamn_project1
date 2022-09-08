@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("/codedamn-course-project/assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #212931;
+    width: 100%;
+    font-family: "Merriweather", Georgia, serif;
+    font-size: 16px;
+}
+
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212931c9;
+    z-index: -1;
+}
+
+h1 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 64px;
+}
+
+h3 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 12.8px;
+}
+
+header {
+    color: #ffffff;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    height: 100vh;
+}
+
+header h1 {
+    padding-top: 360px;
+   margin-bottom: 20px;
+}
+
+header h1, p {
+    display: block;
+    text-align: center;
+}
+
+header div {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#arrow_down {
+    border: 1px solid white;
+    border-radius: 500px;
+    padding: 15px 17px;
+}
+#arrow_down:hover {
+    background: #ffffff;
+    color: #212931;
+}
+
+#main {
+    width: 70%;
+    margin: 40px auto 0 auto;
+}
+
+#section_header {
+    background-color: rgba(70, 73, 78, 0.4);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+li {
+    display: block;
+    padding: 20px 18px 20px 18px;
+}
+
+li:hover {
+    color: #212931;
+    background-color: white;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+}
+
+#links div {
+    padding: 20px 15px 20px 15px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#main_container {
+    background: white;
+    width: 100%;
+}
+
+#main_story {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #212931;
+    text-align: center;
+}
+
+.date {
+    display: inline-block;
+    margin-top: 40px;
+    color: #909498;
+}
+
+#main_story h1, p {
+    width: 80%;
+    margin: 0px auto 0px auto;
+    padding-top: 40px;
+    
+}
+
+#main_story img {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.full_story {
+    border: 2px solid #212931;
+    padding: 12px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.full_story:hover {
+    background: #212931;
+    color: white;
+}
+
+#othr_stories {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+}
+
+#othr_stories div{
+    text-align: center;
+    border: 1px solid #b0b8c0a1;
+    padding: 0px 20px 30px 20px;
+   
+}
+
+#othr_stories div h2, p, img {
+    padding-top: 30px;
+}
+
+#othr_stories img {
+    width: 80%;
+}
+
+#section_footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #eeeeee;
+}
+
+#forms {
+    width: 50%;
+    padding: 5% 5% 3% 5%;
+    font-weight: 600;
+    color: #575a5c;
+    
+}
+#contact {
+    width: 50%;
+}
+
+#forms label, input, textarea {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 40px;
+    background: #eeeeee;
+}
+
+#forms input, textarea {
+    margin-bottom: 30px;
+    border: 1px solid #909498;
+}
+
+textarea {
+    height: auto;
+}
+
+#submit_form {
+    border: 2px solid #212931;
+    background: #eeeeee;
+    padding: 12px;
+    display: inline;
+    margin-top: 40px;
+    font-weight: 400;
+    color: #212931;
+    width: 30%;
+}
+
+#submit_form:hover {
+    background: #212931;
+    color: white;
+}
