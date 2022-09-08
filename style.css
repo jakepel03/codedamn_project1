@@ -265,6 +265,13 @@ textarea {
     color: #212931;
 }
 
+footer {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color: #575a5c;
+}
+
 @media screen and (max-width: 948px) {
     h1 {
         font-size: 40px;
@@ -329,4 +336,7 @@ textarea {
         border: none;
     }
 
+    #contact {
+        padding-bottom: 40px;
+    }
 }
