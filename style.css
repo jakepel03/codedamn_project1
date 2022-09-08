@@ -278,6 +278,9 @@ textarea {
         border: 2px solid yellow;
         position: relative;
     }
+    #main {
+        width: 100%;
+    }
     #forms, #contact {
         width: 100%;
     }
