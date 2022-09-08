@@ -16,7 +16,6 @@ body {
     background-size: contain;
     background-color: #212931;
     font-family: "Merriweather", Georgia, serif;
-    
 }
 
 #overlay {
@@ -39,11 +38,6 @@ h1 {
 h2 {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 40px;
-}
-
-h3 {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 12.8px;
 }
 
 header {
@@ -271,6 +265,18 @@ textarea {
 }
 
 @media screen and (max-width: 948px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
     header {
         width: 100vw;
         height: 100vh; 
@@ -280,27 +286,37 @@ textarea {
         padding-top: 200px;
         margin-bottom: 20px;
     }
+
     #section_header {
         display: none;
     }
+
     #main {
         width: 100%;
     }
+
     #forms, #contact {
         width: 100%;
     }
+
     #section_footer {
         width: 100%;
         display: block;
         flex-direction: column;
         background: #eeeeee;
     }
+
     #othr_stories {
         margin-top: 40px;
         width: 100%;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto;
+    }
+
+    .full_story {
+        padding: 8px;
+        font-size: 10px;
     }
 
     #contact div {
