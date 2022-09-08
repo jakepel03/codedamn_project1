@@ -7,7 +7,7 @@
 
 html {
     scroll-behavior: smooth;
-    overflow: auto;
+    
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     background-size: contain;
     background-color: #212931;
     font-family: "Merriweather", Georgia, serif;
-    overflow: auto;
+    
 }
 
 #overlay {
@@ -276,14 +276,16 @@ textarea {
         width: 100vw;
         height: 100vh;
         border: 2px solid yellow;
-        position: relative;
+        
     }
 
     header h1 {
         padding-top: 200px;
         margin-bottom: 20px;
     }
-    
+    #section_header {
+        display: none;
+    }
     #main {
         width: 100%;
     }
