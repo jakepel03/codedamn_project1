@@ -51,7 +51,6 @@ header {
     width: 50%;
     margin: 0 auto 0 auto;
     height: 100vh;
-    border: 2px solid yellow;
 }
 
 header h1 {
@@ -81,7 +80,7 @@ header div {
 
 #main {
     width: 70%;
-    margin: 40px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 #section_header {
