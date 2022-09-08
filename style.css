@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-image: url("/codedamn-course-project/assets/images/bg.jpg");
+    background-image: url("assets/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #212931;
