@@ -16,7 +16,6 @@ body {
     background-size: contain;
     background-color: #212931;
     font-family: "Merriweather", Georgia, serif;
-    border: 2px solid yellow;
     overflow: auto;
 }
 
@@ -52,6 +51,7 @@ header {
     width: 50%;
     margin: 0 auto 0 auto;
     height: 100vh;
+    border: 2px solid yellow;
 }
 
 header h1 {
@@ -278,6 +278,12 @@ textarea {
         border: 2px solid yellow;
         position: relative;
     }
+
+    header h1 {
+        padding-top: 200px;
+        margin-bottom: 20px;
+    }
+    
     #main {
         width: 100%;
     }
