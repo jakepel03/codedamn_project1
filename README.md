@@ -1,7 +1,5 @@
 # HTML5 Massively Landing Page
 
-![Design for the project](https://raw.githubusercontent.com/codedamn-projects/html5-massively-landing-page/master/assets/desktop-design-non-fs.jpg)
-
 ## Introduction
 
 This is one of the many projects available on [codedamn](https://codedamn.com/projects) to reinforce your learning by building. If you want to become a frontend developer and learn by practicing, feel free to attempt this challenge. Check out the [frontend web developer learning path](https://codedamn.com/learning-paths/frontend) to learn more about how to become an awesome frontend developer.
