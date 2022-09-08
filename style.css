@@ -156,6 +156,7 @@ a {
     padding: 12px;
     display: inline-block;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .full_story:hover {
