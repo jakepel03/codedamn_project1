@@ -157,6 +157,9 @@ a {
     display: inline-block;
     margin-top: 40px;
     cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .full_story:hover {
