@@ -217,6 +217,7 @@ a {
 #forms input, textarea {
     margin-bottom: 30px;
     border: 1px solid #909498;
+    padding: 5px;
 }
 
 textarea {
@@ -306,28 +307,37 @@ footer {
         width: 100%;
     }
 
-    #forms, #contact {
-        width: 100%;
-    }
-
-    #section_footer {
-        width: 100%;
-        display: block;
-        flex-direction: column;
-        background: #eeeeee;
-    }
-
     #othr_stories {
         margin-top: 40px;
         width: 100%;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto;
-    }
-
+        }
+    
     .full_story {
         padding: 8px;
         font-size: 10px;
+    }
+    
+    #section_footer {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        background: #eeeeee;
+    }
+    
+    #forms, #contact {
+        width: 100%;
+    }
+
+    #forms {
+        padding: 40px;
+    }
+
+    #forms label, input, textarea {
+        height: 30px;
+        font-size: smaller;
     }
 
     #contact div {
@@ -341,5 +351,6 @@ footer {
 
     #contact {
         padding-bottom: 40px;
+        font-size: smaller;
     }
 }
