@@ -222,6 +222,7 @@ a {
 
 textarea {
     height: auto;
+    resize: vertical;
 }
 
 #submit_form {
@@ -338,6 +339,10 @@ footer {
     #forms label, input, textarea {
         height: 30px;
         font-size: smaller;
+    }
+
+    textarea {
+        height: 100px;
     }
 
     #contact div {
